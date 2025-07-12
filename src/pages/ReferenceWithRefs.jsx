@@ -12,6 +12,7 @@ const ReferenceWithRefs = () => {
     }
 
     const startTimer = () => {
+        stopTimer()
         setStartTime(Date.now())
         setEndTime(Date.now())
 
