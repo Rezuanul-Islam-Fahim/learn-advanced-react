@@ -1,6 +1,13 @@
+import { BrowserRouter, Routes, Route } from 'react-router'
+import HomePage from './pages/HomePage'
+
 const App = () => {
-  return (
-    <h1>This is homepage</h1>
+    return (
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
