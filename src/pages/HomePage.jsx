@@ -8,6 +8,10 @@ const HomePage = () => {
                     className="btn btn-primary my-2">
                     Referencing Values with Refs
                 </Link>
+                <Link to={'/refs-dom'}
+                    className="btn btn-primary my-2">
+                    Refs for DOM manipulation
+                </Link>
             </div>
         </div>
     )
