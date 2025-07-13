@@ -12,6 +12,10 @@ const HomePage = () => {
                     className="btn btn-primary my-2">
                     Refs for DOM manipulation
                 </Link>
+                <Link to={'/syncrognize-effects'}
+                    className="btn btn-primary my-2">
+                    Syncrognizing with Effects
+                </Link>
             </div>
         </div>
     )
