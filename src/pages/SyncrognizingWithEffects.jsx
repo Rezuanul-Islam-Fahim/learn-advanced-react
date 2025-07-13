@@ -15,7 +15,7 @@ const PlayGround = () => {
             console.log('🟡 Cancel "' + text + '" log')
             clearTimeout(timeoutId)
         }
-    })
+    }, [text])
 
     return (
         <div className="flex flex-col">
