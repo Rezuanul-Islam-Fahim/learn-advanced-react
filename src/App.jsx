@@ -5,6 +5,7 @@ import ReferenceWithRefs from './pages/ReferenceWithRefs'
 import RefsDomManipulation from './pages/RefsDomManipulation.jsx'
 import SyncrognizingWithEffects from './pages/SyncrognizingWithEffects.jsx'
 import CustomHooks from './pages/CustomHooks.jsx'
+import ExtractRepetationWithHooks from './pages/ExtractRepetationWithHooks.jsx'
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
           <Route path={'/reference-with-refs'} element={<ReferenceWithRefs />} />
           <Route path={'/refs-dom'} element={<RefsDomManipulation />} />
           <Route path={'/syncrognize-effects'} element={<SyncrognizingWithEffects />} />
-          <Route path={'/custom-hooks'} element={<CustomHooks />} />
+          <Route path={'/custom-hooks-example'} element={<CustomHooks />} />
+          <Route path={'/custom-hooks-extract-repetation'} element={<ExtractRepetationWithHooks />} />
         </Route>
       </Routes>
     </BrowserRouter>

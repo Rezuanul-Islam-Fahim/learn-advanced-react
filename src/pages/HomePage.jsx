@@ -16,9 +16,13 @@ const HomePage = () => {
                     className="btn btn-primary my-2">
                     Syncrognizing with Effects
                 </Link>
-                <Link to={'/custom-hooks'}
+                <Link to={'/custom-hooks-example'}
                     className="btn btn-primary my-2">
-                    Custom Hooks
+                    Custom Hooks Example
+                </Link>
+                <Link to={'/custom-hooks-extract-repetation'}
+                    className="btn btn-primary my-2">
+                    Extract repetation with Custom Hooks
                 </Link>
             </div>
         </div>
