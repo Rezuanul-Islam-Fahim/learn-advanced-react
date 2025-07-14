@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
-const useFormInput = () => {
-    const [text, setText] = useState('')
+const useFormInput = (initialVal) => {
+    const [text, setText] = useState(initialVal)
 
     const handleChange = (e) => {
         setText(e.target.value)
@@ -14,8 +14,8 @@ const useFormInput = () => {
 }
 
 const ExtractRepetationWithHooks = () => {
-    const firstnameInput = useFormInput()
-    const lastnameInput = useFormInput()
+    const firstnameInput = useFormInput('Rezuanul Islam')
+    const lastnameInput = useFormInput('Fahim')
 
     return (
         <>
