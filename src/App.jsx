@@ -4,6 +4,7 @@ import MainContentLayout from './layouts/MainContentLayout.jsx'
 import ReferenceWithRefs from './pages/ReferenceWithRefs'
 import RefsDomManipulation from './pages/RefsDomManipulation.jsx'
 import SyncrognizingWithEffects from './pages/SyncrognizingWithEffects.jsx'
+import CustomHooks from './pages/CustomHooks.jsx'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path={'/reference-with-refs'} element={<ReferenceWithRefs />} />
           <Route path={'/refs-dom'} element={<RefsDomManipulation />} />
           <Route path={'/syncrognize-effects'} element={<SyncrognizingWithEffects />} />
+          <Route path={'/custom-hooks'} element={<CustomHooks />} />
         </Route>
       </Routes>
     </BrowserRouter>

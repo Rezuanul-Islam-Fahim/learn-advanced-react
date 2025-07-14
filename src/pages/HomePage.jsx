@@ -16,6 +16,10 @@ const HomePage = () => {
                     className="btn btn-primary my-2">
                     Syncrognizing with Effects
                 </Link>
+                <Link to={'/custom-hooks'}
+                    className="btn btn-primary my-2">
+                    Custom Hooks
+                </Link>
             </div>
         </div>
     )
