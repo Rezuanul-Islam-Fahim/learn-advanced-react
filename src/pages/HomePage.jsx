@@ -24,6 +24,10 @@ const HomePage = () => {
                     className="btn btn-primary my-2">
                     Extract repetation with Custom Hooks
                 </Link>
+                <Link to={'/pass-reactive-values-hooks'}
+                    className="btn btn-primary my-2">
+                    Pass Reactive Values between Hooks
+                </Link>
             </div>
         </div>
     )
